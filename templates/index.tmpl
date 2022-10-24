@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../assets/favicon.ico" rel="shortcut icon">
+    <meta charset="UTF-8">
+    <title>Learn Cantonese</title>
+    <h1>学好广东话</h1>
+    <input type="text" placeholder="Search..." id="mainSearchInput" style="width:74%" value="">
+    <button class="jsx-1467130238 ml-1 btn btn-green flex-auto my-1">搜 索</button>
+    <p>{{.charCN}}</p>
+    <p>{{.pronounce}}</p>
+</head>
+<body>
+<audio src={{.path}} loop="loop" controls="controls" autoplay="autoplay"></audio>
+</body>
+</html>
